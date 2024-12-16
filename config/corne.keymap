@@ -56,7 +56,7 @@
             >;
         };
 
-        reset-boot {
+        reset+boot {
             bindings = <
 &sys_reset  &bootloader  &trans  &trans  &trans  &trans    &sys_reset  &bootloader  &trans  &trans  &trans  &trans
 &trans      &trans       &trans  &trans  &trans  &trans    &trans      &trans       &trans  &trans  &trans  &trans
