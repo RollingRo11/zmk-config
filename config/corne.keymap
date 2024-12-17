@@ -27,7 +27,7 @@
         };
 
         rightreset {
-            bindings = <&none>;
+            bindings = <&sys_reset>;
             key-positions = <9 21 33>;
         };
     };
