@@ -20,16 +20,6 @@
             bindings = <&sys_reset>;
             key-positions = <2 26 14>;
         };
-
-        rightbootloader {
-            bindings = <&bootloader>;
-            key-positions = <10 11 35 34>;
-        };
-
-        rightreset {
-            bindings = <&sys_reset>;
-            key-positions = <9 21 33>;
-        };
     };
 
     keymap {
@@ -74,8 +64,8 @@
 
             bindings = <
 &kp TAB    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRCNT        &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp RIGHT_ALT
-&kp LCTRL  &kp SLASH             &kp BACKSLASH         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans           &kp MINUS   &kp EQUAL         &kp POUND   &kp STAR           &kp AMPERSAND    &kp GRAVE
-&kp LSHFT  &kp PIPE              &trans                &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans           &kp UNDER   &kp PLUS          &kp DOLLAR  &kp AT_SIGN        &mo 3            &kp TILDE
+&kp LCTRL  &kp SLASH             &kp BACKSLASH         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans           &kp MINUS   &kp EQUAL         &kp POUND   &kp STAR           &kp AMPERSAND    &bootloader
+&kp LSHFT  &kp PIPE              &trans                &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans           &kp UNDER   &kp PLUS          &kp DOLLAR  &kp AT_SIGN        &mo 3            &sys_reset
                                                        &kp LGUI              &trans                 &kp BACKSPACE    &kp RET     &kp SPACE         &trans
             >;
         };
