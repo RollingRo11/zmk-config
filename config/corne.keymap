@@ -48,7 +48,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &none             &none    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LG(LS(N0))      &kp LG(LS(SLASH))
+&kp ESCAPE  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &none             &kp N0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LG(LS(N0))      &kp LG(LS(SLASH))
 &kp TAB     &kp LEFT_ARROW    &kp DOWN_ARROW    &kp UP_ARROW      &kp RIGHT_ARROW   &none             &none    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LG(LS(PERIOD))  &kp LG(LS(SQT))
 &kp LSHFT   &kp LG(LS(H))     &kp LG(LS(J))     &kp LG(LS(K))     &kp LG(LS(L))     &kp LG(LS(N0))    &trans   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LG(LS(COMMA))   &kp LG(LS(BACKSLASH))
                                                 &trans            &trans            &kp BACKSPACE     &kp RET  &trans        &trans
