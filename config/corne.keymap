@@ -64,8 +64,8 @@
 
             bindings = <
 &kp ESCAPE  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PRCNT         &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp RIGHT_ALT
-&kp TAB     &kp SLASH             &kp BACKSLASH         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp KP_MINUS      &none       &kp EQUAL         &kp POUND   &kp STAR           &kp AMPERSAND    &bootloader
-&kp LSHFT   &kp PIPE              &kp EXCL              &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE    &none       &kp PLUS          &kp DOLLAR  &kp AT_SIGN        &none            &sys_reset
+&kp TAB     &kp SLASH             &kp BACKSLASH         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp KP_MINUS      &kp DOLLAR  &kp EQUAL         &kp POUND   &kp STAR           &kp AMPERSAND    &bootloader
+&kp LSHFT   &kp PIPE              &kp EXCL              &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE    &kp CARET   &kp PLUS          &none       &kp AT_SIGN        &none            &sys_reset
                                                         &kp LGUI              &trans                 &kp BACKSPACE     &kp RET     &kp SPACE         &trans
             >;
         };
